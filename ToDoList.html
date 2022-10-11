@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>To Do List</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	<script src="ToDoList.js"></script>
+	<link rel="stylesheet" href="ToDoList.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div id="title">To Do List (work in progress)</div>
+		<div id="inputs">
+			<input type="text" id="thing" size="100" />
+			<input type="datetime-local" id="datetime" />
+			<input type="submit" value="Add" onclick="addItem()" />
+		</div>
+		<div id="contents">
+			<div id="list">
+				<div id="thingList1"></div></br>
+				<div id="thingList2"></div></br>
+				<div id="thingList3"></div></br>
+				<div id="thingList4"></div></br>
+				<div id="thingList5"></div></br>
+				<div id="thingList6"></div></br>
+				<div id="thingList7"></div></br>
+				<div id="thingList8"></div></br>
+				<div id="thingList9"></div></br>
+				<div id="thingList10"></div></br>
+			</div>
+			<div id="options">
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+				<input type="submit" value="Move Up" onclick="moveUp(1)" /><input type="submit" value="Move Down" onclick="moveDown(1)" /><input type="submit" value="Delete" onclick="remove(1)" /></br></br>
+			</div>
+		</div>
+		<div style="clear:booth;"></div>
+		<div id="footer">
+			Made by Xevelos &copy All rights reserved.
+		</div>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+	background-color: gray;
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	font-size: 44px;
+	text-align: center;
+	padding: 20px;
+	width: 960px;
+	background-color: lightgreen;
+	color: black;
+	font-weight: 900;
+}
+
+#inputs {
+	background-color: yellow;
+	padding: 10px;
+	width: 980px;
+	text-align: center;
+}
+
+#contents {
+	background-color: orange;
+	height: 770px;
+	color: navy;
+}
+
+#list {
+	float: left;
+	padding: 10px;
+	width: 740px;
+	height:750px;
+	border-right: 2px dotted red;
+}
+
+#options {
+	float: left;
+	padding: 10px;
+	width: 218px;
+	height:750px;
+}
+
+#footer {
+	text-align: right;
+	background-color: black;
+	width: 990px;
+	padding: 5px;
+	font-size: 12px;
+}
