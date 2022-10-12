@@ -2,7 +2,6 @@ body {
 	background-color: gray;
 	font-family: Verdana;
 	font-size: 20px;
-	color: white;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -18,7 +17,6 @@ body {
 	padding: 20px;
 	width: 960px;
 	background-color: lightgreen;
-	color: black;
 	font-weight: 900;
 }
 
@@ -26,28 +24,42 @@ body {
 	background-color: yellow;
 	padding: 10px;
 	width: 980px;
-	text-align: center;
+	text-align: left;
 }
 
 #contents {
 	background-color: orange;
-	height: 770px;
+	height: 370px;
 	color: navy;
+}
+
+.contentsStyle1 {
+	background-color: darkorange;
+	padding: 5px;
+	display: flex;
+	height: 25px;
+}
+
+.contentsStyle2 {
+	background-color: coral;
+	padding: 5px;
+	display: flex;
+	height: 25px;
 }
 
 #list {
 	float: left;
 	padding: 10px;
-	width: 740px;
-	height:750px;
+	width: 728px;
+	height: 350px;
 	border-right: 2px dotted red;
 }
 
 #options {
 	float: left;
 	padding: 10px;
-	width: 218px;
-	height:750px;
+	width: 220px;
+	height: 350px;
 }
 
 #footer {
@@ -56,4 +68,17 @@ body {
 	width: 990px;
 	padding: 5px;
 	font-size: 12px;
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: lawngreen;
 }
